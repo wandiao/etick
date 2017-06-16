@@ -1452,7 +1452,7 @@ table.record-list.span4 td {
   height: 48px;
   line-height: 48px;
   color: #667cb4;
-  font-size: 20px;
+  font-size: 26px;
 }
 .ss.ss8 .cashier-item.total {
   height: 58px;
@@ -1464,8 +1464,13 @@ table.record-list.span4 td {
 }
 .ss.ss8 .cashier-item.total .c-value i {
   font-size: 20px;
+  line-height: 58px;
+  vertical-align: middle;
+  float: left;
 }
 .ss.ss8 .cashier-item.total .c-value input {
+  float: left;
+  font-size: 26px;
   height: 58px;
   line-height: 58px;
 }
@@ -1570,7 +1575,7 @@ table.record-list.span4 td {
   color: #666;
 }
 .ss.ss8 .search-option.cashier {
-  font-size: 16px;
+  font-size: 12px;
   color: #666;
 }
 .ss.ss8 .search-option.cashier input.phone {
