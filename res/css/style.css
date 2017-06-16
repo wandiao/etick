@@ -296,14 +296,14 @@ table.table-striped tr.odd {
   color: #f36f2a;
 }
 .search-option {
-  padding-top: 20px;
+  padding-top: 10px;
   border-bottom: 1px solid #dcdcdc;
 }
 .search-option .so-item {
   float: left;
-  margin-right: 47px;
+  margin-right: 37px;
   line-height: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .search-option .so-item.mr20 {
   margin-right: 20px;
@@ -692,8 +692,8 @@ table.table-striped tr.odd {
   color: #233050;
 }
 .record-list th {
-  height: 52px;
-  line-height: 52px;
+  height: 42px;
+  line-height: 42px;
   font-weight: normal;
   text-align: left;
   padding-left: 8px;
@@ -713,8 +713,8 @@ table.table-striped tr.odd {
   background-color: #f1f3fa;
 }
 .record-list td {
-  height: 44px;
-  line-height: 44px;
+  height: 34px;
+  line-height: 34px;
 }
 .record-list td .detail {
   padding: 4px 8px;
@@ -734,8 +734,8 @@ table.table-striped tr.odd {
   color: #233050;
 }
 .shop-list th {
-  height: 63px;
-  line-height: 63px;
+  height: 53px;
+  line-height: 53px;
   font-weight: normal;
   text-align: left;
   padding-left: 8px;
@@ -758,8 +758,8 @@ table.table-striped tr.odd {
           box-shadow: 1px 1px 1px #fac9af, -1px -1px 1px #fac9af;
 }
 .shop-list td {
-  height: 44px;
-  line-height: 44px;
+  height: 35px;
+  line-height: 35px;
 }
 .shop-list td .detail {
   padding: 4px 8px;
@@ -856,8 +856,8 @@ table.record-list.span4 td {
 }
 .cashier-item {
   width: 100%;
-  height: 78px;
-  line-height: 78px;
+  height: 68px;
+  line-height: 68px;
   border: 1px solid #cdcdcd;
   font-size: 30px;
   color: #666;
@@ -878,9 +878,16 @@ table.record-list.span4 td {
   padding-left: 20px;
   color: #667cb4;
 }
+.cashier-item .c-value input {
+  font-size: 30px;
+  line-height: 78px;
+  color: #667cb4;
+  width: 50%;
+  vertical-align: middle;
+}
 .cashier-item.total {
-  height: 98px;
-  line-height: 98px;
+  height: 78px;
+  line-height: 78px;
   background: #f1f3fa;
 }
 .cashier-item.total .c-value i {
@@ -900,8 +907,8 @@ table.record-list.span4 td {
   color: #666;
 }
 .note-paying td {
-  height: 78px;
-  line-height: 78px;
+  height: 68px;
+  line-height: 68px;
   font-size: 30px;
 }
 .note-paying td.c-key {
@@ -915,8 +922,8 @@ table.record-list.span4 td {
 }
 .note-paying td.c-value input {
   background: none;
-  height: 78px;
-  line-height: 78px;
+  height: 68px;
+  line-height: 68px;
   color: #667cb4;
   font-size: 30px;
 }
@@ -937,8 +944,8 @@ table.record-list.span4 td {
 }
 .cashier-record-list th,
 .cashier-record-list td {
-  height: 40px;
-  line-height: 40px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
 }
 .cashier-record-list th {
@@ -1418,7 +1425,7 @@ table.record-list.span4 td {
   height: 48px;
   line-height: 48px;
   border: 1px solid #cdcdcd;
-  font-size: 20px;
+  font-size: 16px;
   color: #666;
   position: relative;
 }
@@ -1435,15 +1442,31 @@ table.record-list.span4 td {
   margin-left: 127px;
   text-align: left;
   padding-left: 20px;
+  line-height: 48px;
   color: #667cb4;
 }
+.ss.ss8 .cashier-item .c-value input {
+  vertical-align: baseline;
+  background: none;
+  height: 48px;
+  line-height: 38px;
+  color: #667cb4;
+  font-size: 20px;
+}
 .ss.ss8 .cashier-item.total {
-  height: 78px;
-  line-height: 78px;
+  height: 58px;
+  line-height: 58px;
   background: #f1f3fa;
+}
+.ss.ss8 .cashier-item.total .c-value {
+  line-height: 58px;
 }
 .ss.ss8 .cashier-item.total .c-value i {
   font-size: 20px;
+}
+.ss.ss8 .cashier-item.total .c-value input {
+  height: 58px;
+  line-height: 58px;
 }
 .ss.ss8 .card-code,
 .ss.ss8 .note-paying {
@@ -1459,9 +1482,9 @@ table.record-list.span4 td {
   color: #666;
 }
 .ss.ss8 .note-paying td {
-  height: 48px;
-  line-height: 48px;
-  font-size: 20px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
 }
 .ss.ss8 .note-paying td.c-key {
   width: 107px;
@@ -1474,20 +1497,20 @@ table.record-list.span4 td {
 }
 .ss.ss8 .note-paying td.c-value input {
   background: none;
-  height: 48px;
-  line-height: 48px;
+  height: 38px;
+  line-height: 38px;
   color: #667cb4;
   font-size: 20px;
 }
 .ss.ss8 .note-paying td .submit {
   margin-left: 127px;
-  width: 156px;
-  height: 37px;
-  line-height: 37px;
+  width: 106px;
+  height: 27px;
+  line-height: 27px;
   text-align: center;
   background: #f36f2a;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
 }
 .ss.ss8 .cashier-record-list {
   font-size: 12px;
@@ -1552,4 +1575,42 @@ table.record-list.span4 td {
 .ss.ss8 .search-option.cashier input.phone {
   width: 172px;
   text-align: center;
+}
+.ss.ss8 table.shop-detail {
+  font-size: 12px;
+  margin-top: 21px;
+}
+.ss.ss8 table.shop-detail td {
+  height: 34px;
+}
+.ss.ss8 table.shop-detail .s-key {
+  width: 115px;
+  padding-right: 20px;
+  text-align: right;
+  background: #f1f3fa;
+}
+.ss.ss8 table.shop-detail .s-value {
+  padding-left: 28px;
+}
+.ss.ss8 table.shop-detail .s-value span {
+  margin-right: 10px;
+}
+.ss.ss8 table.payment-info {
+  font-size: 12px;
+  margin-top: 21px;
+}
+.ss.ss8 table.payment-info td {
+  height: 25px;
+}
+.ss.ss8 table.payment-info .s-key {
+  width: 115px;
+  padding-right: 20px;
+  text-align: right;
+  background: #f1f3fa;
+}
+.ss.ss8 table.payment-info .s-value {
+  padding-left: 28px;
+}
+.ss.ss8 table.payment-info .s-value span {
+  margin-right: 10px;
 }

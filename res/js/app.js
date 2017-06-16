@@ -35,7 +35,7 @@ $(function() {
 	//屏幕
 	var screenWidth;
 	screenWidth = window.screen.width;
-	alert(screenWidth);
+	// alert(screenWidth);
 	if(screenWidth <= 1180) {
 		$('html').addClass('ss');
 	}
