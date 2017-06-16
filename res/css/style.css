@@ -1519,8 +1519,8 @@ table.record-list.span4 td {
 }
 .ss.ss8 .cashier-record-list th,
 .ss.ss8 .cashier-record-list td {
-  height: 25px;
-  line-height: 25px;
+  height: 20px;
+  line-height: 20px;
   text-align: center;
 }
 .ss.ss8 .cashier-record-list th {
