@@ -995,3 +995,561 @@ table.record-list.span4 td {
   width: 172px;
   text-align: center;
 }
+/*small-screen module*/
+.ss .container {
+  width: 100%;
+}
+.ss.ss8 {
+  font-size: 12px;
+}
+.ss.ss8 .sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 35px;
+  background: #233050;
+  font-size: 12px;
+}
+.ss.ss8 .manage-page .main-wrapper {
+  position: absolute;
+  left: 35px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.ss.ss8 .manage-page .header {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+.ss.ss8 .manage-page .header.cashier-header {
+  background: #f36f2a;
+}
+.ss.ss8 .manage-page .header.cashier-header .user .u-name {
+  color: #fff;
+}
+.ss.ss8 .manage-page .header .logo {
+  margin-left: 20px;
+}
+.ss.ss8 .manage-page .header .logo img {
+  width: 80%;
+}
+.ss.ss8 .manage-page .header .user {
+  position: relative;
+  z-index: 10;
+  margin-right: 20px;
+}
+.ss.ss8 .manage-page .header .user .u-wrapper {
+  cursor: pointer;
+}
+.ss.ss8 .manage-page .header .user .u-avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.ss.ss8 .manage-page .header .user .u-name {
+  font-size: 12px;
+  color: #666;
+}
+.ss.ss8 .manage-page .header .user .u-option {
+  position: absolute;
+  left: 0;
+  top: 90%;
+  display: none;
+  background: #fff;
+  width: 100%;
+  z-index: 15;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 1px 1px 2px #ccc, -1px -1px 2px #ccc;
+          box-shadow: 1px 1px 2px #ccc, -1px -1px 2px #ccc;
+}
+.ss.ss8 .manage-page .header .user .u-option li {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+.ss.ss8 .manage-page .header .user .u-option li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #666;
+  font-size: 12px;
+}
+.ss.ss8 .manage-page .header .user .u-option li a:hover {
+  background: #aaa;
+  color: #fff;
+}
+.ss.ss8 .manage-page .content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40px;
+  bottom: 0;
+  padding: 12px;
+  background: #eff1f9;
+}
+.ss.ss8 .manage-page .content .c-part {
+  background: #fff;
+}
+.ss.ss8 .manage-page .content .separate {
+  margin: 0 -20px;
+  height: 10px;
+  background: #eff1f9;
+}
+.ss.ss8 .manage-page .content .month-record {
+  padding: 15px 0;
+}
+.ss.ss8 .manage-page .content .month-record .mr-item {
+  float: left;
+  width: 30%;
+  height: 100px;
+  margin-right: 5%;
+}
+.ss.ss8 .manage-page .content .month-record .mr-item.last {
+  margin-right: 0;
+}
+.ss.ss8 .manage-page .content .month-record .mr-decorate {
+  width: 30%;
+  height: 100%;
+  float: left;
+  line-height: 100px;
+  text-align: center;
+}
+.ss.ss8 .manage-page .content .month-record .mr-decorate.green {
+  background: #6ccac9;
+}
+.ss.ss8 .manage-page .content .month-record .mr-decorate.yellow {
+  background: #f8d347;
+}
+.ss.ss8 .manage-page .content .month-record .mr-decorate.blue {
+  background: #57c8f2;
+}
+.ss.ss8 .manage-page .content .month-record .mr-info {
+  width: 70%;
+  height: 100%;
+  float: left;
+  background: #f1f3fa;
+  text-align: right;
+}
+.ss.ss8 .manage-page .content .month-record .mr-info .mr-count {
+  margin-top: 20px;
+  margin-right: 15px;
+  font-size: 30px;
+}
+.ss.ss8 .manage-page .content .month-record .mr-info .mr-title {
+  margin-right: 15px;
+  font-size: 14px;
+}
+.ss.ss8 .manage-page .content .notice {
+  padding-top: 27px;
+  padding-bottom: 80px;
+}
+.ss.ss8 .manage-page .content .notice > h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.ss.ss8 .manage-page .content .notice .notice-content {
+  font-size: 14px;
+  line-height: 32px;
+}
+.ss.ss8 .manage-page .content .c-main {
+  height: 100%;
+  padding: 0 20px;
+  background: #fff;
+  font-size: 12px;
+}
+.ss.ss8 .manage-page .content .c-main .c-title {
+  height: 43px;
+  line-height: 43px;
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 14px;
+}
+.ss.ss8 .record-list {
+  font-size: 12px;
+  color: #233050;
+}
+.ss.ss8 .record-list th {
+  height: 32px;
+  line-height: 32px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 5px;
+}
+.ss.ss8 .record-list td {
+  padding-left: 5px;
+}
+.ss.ss8 .record-list tbody tr {
+  border: 1px solid transparent;
+}
+.ss.ss8 .record-list tbody tr:hover {
+  border: 1px solid #fac9af;
+  -webkit-box-shadow: 1px 1px 1px #fac9af, -1px -1px 1px #fac9af;
+          box-shadow: 1px 1px 1px #fac9af, -1px -1px 1px #fac9af;
+}
+.ss.ss8 .record-list tbody tr:nth-child(odd) {
+  background-color: #f1f3fa;
+}
+.ss.ss8 .record-list td {
+  height: 22px;
+  line-height: 22px;
+}
+.ss.ss8 .record-list td .detail {
+  padding: 2px 5px;
+  color: #233050;
+  text-align: center;
+  border: 1px solid #233050;
+}
+.ss.ss8 .record-list td .success {
+  color: #00ad7c;
+}
+.ss.ss8 .record-list td .failure {
+  color: #f00;
+}
+.ss.ss8 .btns {
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+}
+.ss.ss8 .btns button,
+.ss.ss8 .btns a {
+  display: inline-block;
+  width: 67px;
+  height: 22px;
+  line-height: 22px;
+  border-radius: 100px;
+  color: #666;
+  border: 1px solid #dcdcdc;
+  background: #f1f3fa;
+}
+.ss.ss8 .btns button.active,
+.ss.ss8 .btns a.active {
+  border: 1px solid #f36f2a;
+  background: #fff;
+  color: #f36f2a;
+}
+.ss.ss8 .shop-list {
+  font-size: 12px;
+  color: #233050;
+}
+.ss.ss8 .shop-list th {
+  height: 43px;
+  line-height: 43px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 5px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.ss.ss8 .shop-list td {
+  padding-left: 5px;
+}
+.ss.ss8 .shop-list tbody:before {
+  content: "\200C";
+  height: 10px;
+  display: block;
+}
+.ss.ss8 .shop-list tbody tr {
+  border: 1px solid transparent;
+}
+.ss.ss8 .shop-list tbody tr:hover {
+  border: 1px solid #fac9af;
+  -webkit-box-shadow: 1px 1px 1px #fac9af, -1px -1px 1px #fac9af;
+          box-shadow: 1px 1px 1px #fac9af, -1px -1px 1px #fac9af;
+}
+.ss.ss8 .shop-list td {
+  height: 24px;
+  line-height: 24px;
+}
+.ss.ss8 .shop-list td .detail {
+  padding: 2px 5px;
+  text-align: center;
+  color: #233050;
+  border: 1px solid #233050;
+}
+.ss.ss8 .pagination-wrapper {
+  margin-top: 20px;
+  text-align: center;
+}
+.ss.ss8 .pagination-wrapper .pagination {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  font-size: 12px;
+}
+.ss.ss8 .pagination-wrapper .pagination ul.pager,
+.ss.ss8 .pagination-wrapper .pagination ul.pager li {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+.ss.ss8 .pagination-wrapper .pagination li {
+  margin-right: 3px;
+}
+.ss.ss8 .pagination-wrapper .pagination li a {
+  display: block;
+  padding: 2px 5px;
+  color: #233050;
+  border: 1px solid #233050;
+}
+.ss.ss8 .pagination-wrapper .pagination li a.disabled {
+  cursor: default;
+  color: #cdcdcd;
+}
+.ss.ss8 .pagination-wrapper .pagination .jump {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+.ss.ss8 .pagination-wrapper .pagination .jump .jump-page {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 44px;
+  padding: 2px 0;
+  text-align: center;
+  border: 1px solid #233050;
+  color: #233050;
+  margin: 0 3px;
+}
+.ss.ss8 .pagination-wrapper .pagination .jump .jumper {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  padding: 2px 5px;
+  color: #233050;
+  border: 1px solid #233050;
+  margin-left: 3px;
+}
+.ss.ss8 .pagination-wrapper .pagination .pager-extra {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  margin-left: 10px;
+}
+.ss.ss8 .pagination-wrapper .pagination .pager-extra .combo-select {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 0;
+  border: 1px solid #233050;
+  margin: 0 10px;
+}
+.ss.ss8 .pagination-wrapper .pagination .pager-extra .combo-select li {
+  padding: 0;
+}
+.ss.ss8 .pagination-wrapper .pagination .pager-extra .combo-select .combo-input {
+  padding: 0;
+}
+.ss.ss8 .pagination-wrapper .pagination select {
+  display: none;
+}
+.ss.ss8 .search-option {
+  padding-top: 10px;
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 12px;
+}
+.ss.ss8 .search-option .so-item {
+  float: left;
+  margin-right: 20px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.ss.ss8 .search-option .so-item.mr20 {
+  margin-right: 20px;
+}
+.ss.ss8 .search-option .so-item .so-title {
+  margin-right: 10px;
+}
+.ss.ss8 .search-option .so-item .combo-select {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  width: 50px;
+  height: 26px;
+  margin-right: 5px;
+  margin-bottom: 0;
+  line-height: 26px;
+  border-radius: 0;
+}
+.ss.ss8 .search-option .so-item .combo-select li {
+  padding: 0 5px;
+}
+.ss.ss8 .search-option .so-item input {
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  border: 1px solid #dcdcdc;
+  padding: 0 5px;
+}
+.ss.ss8 .search-option .so-item input.combo-input {
+  border: 0;
+}
+.ss.ss8 .search-option .so-item input.shop-name {
+  width: 70px;
+  vertical-align: top;
+}
+.ss.ss8 .search-option .so-item input.phone {
+  width: 57px;
+}
+.ss.ss8 .search-option .so-item input.time {
+  width: 126px;
+}
+.ss.ss8 .search-option .so-item .search {
+  width: 78px;
+  height: 28px;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  background: #f36f2a;
+}
+.ss.ss8 .search-option .so-item select {
+  display: none;
+}
+.ss.ss8 .total-amount {
+  padding: 10px 5px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.ss.ss8 .cashier-item {
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  border: 1px solid #cdcdcd;
+  font-size: 20px;
+  color: #666;
+  position: relative;
+}
+.ss.ss8 .cashier-item .c-key {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 107px;
+  text-align: right;
+  padding-right: 20px;
+  border-right: 1px solid #cdcdcd;
+}
+.ss.ss8 .cashier-item .c-value {
+  margin-left: 127px;
+  text-align: left;
+  padding-left: 20px;
+  color: #667cb4;
+}
+.ss.ss8 .cashier-item.total {
+  height: 78px;
+  line-height: 78px;
+  background: #f1f3fa;
+}
+.ss.ss8 .cashier-item.total .c-value i {
+  font-size: 20px;
+}
+.ss.ss8 .card-code,
+.ss.ss8 .note-paying {
+  margin-top: 10px;
+}
+.ss.ss8 .card-code h4,
+.ss.ss8 .note-paying h4 {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+.ss.ss8 .note-paying {
+  color: #666;
+}
+.ss.ss8 .note-paying td {
+  height: 48px;
+  line-height: 48px;
+  font-size: 20px;
+}
+.ss.ss8 .note-paying td.c-key {
+  width: 107px;
+  text-align: right;
+  padding-right: 20px;
+}
+.ss.ss8 .note-paying td.c-value {
+  text-align: left;
+  padding-left: 20px;
+}
+.ss.ss8 .note-paying td.c-value input {
+  background: none;
+  height: 48px;
+  line-height: 48px;
+  color: #667cb4;
+  font-size: 20px;
+}
+.ss.ss8 .note-paying td .submit {
+  margin-left: 127px;
+  width: 156px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  background: #f36f2a;
+  color: #fff;
+  font-size: 20px;
+}
+.ss.ss8 .cashier-record-list {
+  font-size: 12px;
+  margin-top: 20px;
+}
+.ss.ss8 .cashier-record-list th,
+.ss.ss8 .cashier-record-list td {
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+.ss.ss8 .cashier-record-list th {
+  background: #f1f3fa;
+}
+.ss.ss8 .cashier-record-list td a {
+  padding: 2px 5px;
+  color: #fff;
+  background: #667cb4;
+}
+.ss.ss8 .pagination.cashier-pagination {
+  font-size: 12px;
+}
+.ss.ss8 .pagination.cashier-pagination li a {
+  padding: 2px 5px;
+  border: 1px solid #cdcdcd;
+  color: #666;
+}
+.ss.ss8 .pagination.cashier-pagination .jump {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+.ss.ss8 .pagination.cashier-pagination .jump .jump-page {
+  width: 44px;
+  padding: 3px 0;
+  text-align: center;
+  border: 1px solid #cdcdcd;
+  color: #666;
+  margin: 0 3px;
+}
+.ss.ss8 .pagination.cashier-pagination .jump .jumper {
+  padding: 2px 5px;
+  color: #666;
+  border: 1px solid #cdcdcd;
+  margin-left: 5px;
+}
+.ss.ss8 .pagination.cashier-pagination .pager-extra {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  margin-left: 10px;
+}
+.ss.ss8 .pagination.cashier-pagination .pager-extra select {
+  border: 1px solid #cdcdcd;
+  margin: 0 5px;
+  color: #666;
+}
+.ss.ss8 .search-option.cashier {
+  font-size: 16px;
+  color: #666;
+}
+.ss.ss8 .search-option.cashier input.phone {
+  width: 172px;
+  text-align: center;
+}

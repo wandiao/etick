@@ -31,4 +31,36 @@ $(function() {
 		}
 	})
 	$('select').comboSelect();
+
+	//屏幕
+	var screenWidth;
+	screenWidth = window.screen.width;
+	console.log(screenWidth);
+	console.log(window.screen.height)
+	if(screenWidth <= 1180) {
+		$('html').addClass('ss');
+	}else{
+		$('html').removeClass('ss');
+	}
+	if(screenWidth <= 800) {
+		$('html').addClass('ss8');
+	}else{
+		$('html').removeClass('ss8');
+	}
+	$(window).resize(function() {
+		screenWidth = window.screen.width;
+		console.log(screenWidth);
+		if(screenWidth <= 1180) {
+			$('html').addClass('ss');
+		}else{
+			$('html').removeClass('ss');
+		}
+		if(screenWidth <= 800) {
+			$('html').addClass('ss8');
+		}else{
+			$('html').removeClass('ss8');
+		}
+	});
+	
+	
 })
