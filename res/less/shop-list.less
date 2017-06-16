@@ -1,0 +1,39 @@
+//店铺列表
+.shop-list{
+	font-size: 12px;
+	color:#233050;
+	th{
+		height: 63px;
+		line-height: 63px;
+		font-weight: normal;
+		text-align: left;
+		padding-left: 8px;
+		border-bottom: 1px solid #dcdcdc;
+	}
+	td{
+		padding-left: 8px;
+	}
+
+	tbody:before{
+		content: "\200C";
+		height:20px;
+		display: block;
+	}
+	tbody tr{
+		border:1px solid transparent;
+		&:hover{
+			border:1px solid #fac9af;
+			box-shadow: 1px 1px 1px #fac9af,-1px -1px 1px #fac9af; 
+		}
+	}
+	td{
+		height: 44px;
+		line-height: 44px;
+		.detail{
+			padding: 4px 8px;
+			text-align: center;
+			color:#233050;
+			border:1px solid #233050;
+		}
+	} 
+}

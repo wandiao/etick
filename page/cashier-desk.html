@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	@@include('include/head.html')
+	<title>收银台</title>
+</head>
+<body>
+	<div class="container manage-page">
+		@@include('include/cashier-sidebar.html')
+		<div class="main-wrapper">
+			<div class="header cashier-header">
+				<div class="logo fl">
+					<img src="../res/img/logo-cashier.png">
+				</div>
+				<div class="user fr">
+					<div class="user-info">
+						<div class="u-wrapper">
+							<img class="u-avatar" src="../res/img/user.png">
+							<span class="u-name">欢迎您，<i>王思明</i></span>
+						</div>
+						<ul class="u-option">
+							<li>
+								<a href="change-password.html">修改密码</a>
+							</li>
+							<li>
+								<a href="javascript:;">注销</a>
+							</li>
+						</ul>	
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="c-main">
+					<div class="total-amount">
+						<div class="cashier-item total">
+							<div class="c-key">金额</div>
+							<div class="c-value"><i>￥</i>963.99</div>
+						</div>
+					</div>
+					<div class="card-code">
+						<h4>券码支付</h4>
+						<div class="cashier-item">
+							<div class="c-key">券码</div>
+							<div class="c-value">A5245869521</div>
+						</div>
+					</div>
+					<div class="note-paying">
+						<h4>短信支付</h4>
+						<form>
+							<table class="table-border">
+								<tr>
+									<td class="c-key">手机号</td>
+									<td class="c-value">
+										<input type="text" name="">
+									</td>
+								</tr>
+								<tr>
+									<td class="c-key">密码</td>
+									<td class="c-value">
+										<input type="password" name="">
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<button type="button" class="submit">提交</button>
+									</td>
+								</tr>
+							</table>
+						</form>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

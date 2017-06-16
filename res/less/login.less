@@ -1,0 +1,100 @@
+//登录页面
+.login-page{
+	width: 100%;
+	height: 100%;
+	background: #21304e;
+	overflow: hidden;
+	position: relative;
+	font-size: 14px;
+	.login-box{
+		display: block;
+		zoom: 1;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right:0;
+		bottom: 0;
+		margin: auto;
+		width: 379px;
+		height: 600px;
+		padding: 0 40px;
+		background: #1e2a42;
+		box-shadow: 1px 1px 10px #253e60, -1px -1px 10px #253e60;
+	}
+	.wrong-message{
+		height: 55px;
+		line-height: 55px;
+		color:red;
+		text-align: center;
+	}
+	.lb-logo{
+		margin-top: 100px;
+		text-align: center;
+	}
+	.lb-title{
+		display: block;
+		margin-top: 10px;
+		color:#49a6a6;
+	}
+	.lb-form{
+		.form-group{
+			margin-bottom: 15px;
+			height: 43px;
+			input{
+				width: 332px;
+				height: 43px;
+				line-height: 43px;
+				border:1px solid #205881;
+				border-radius: 100px;
+				padding-left: 45px;
+				background-color: transparent;
+				background-repeat: no-repeat;
+				background-position: 11px center;
+				color:#3790b0;
+				&.account{
+					background-image: url(../img/account-bg.png);
+				}
+				&.password{
+					background-image: url(../img/password-bg.png);
+				}
+				&.verify-code{
+					width: 217px;
+					border-bottom-right-radius: 0;
+					border-top-right-radius: 0;
+					float: left;
+					background-image: url(../img/verifyCode-bg.png);
+				}
+			}
+			.verify-code-txt{
+				float: left;
+				width: 114px;
+				height: 43px;
+				line-height: 43px;
+				text-align: center;
+				border:1px solid #205881;
+				border-left: 0;
+				border-radius: 0 100px 100px 0;
+				background: #205881;
+				color:#fff;
+				font-size: 16px;
+				letter-spacing: 2px;
+				cursor: pointer;
+			}
+			button{
+				display: block;
+				width: 379px;
+				height: 50px;
+				line-height: 50px;
+				text-align: center;
+				background: url(../img/submitBtn-bg.png) no-repeat center;
+				background-size: 100% 100%;
+				color:#4eb4b2;
+				font-size: 16px;
+				cursor:pointer;
+			}
+		}
+	}
+	::-webkit-input-placeholder{
+    color: #3790b0;
+  }
+}
