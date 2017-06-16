@@ -880,7 +880,8 @@ table.record-list.span4 td {
 }
 .cashier-item .c-value input {
   font-size: 30px;
-  line-height: 78px;
+  line-height: 68px;
+  height: 68px;
   color: #667cb4;
   width: 50%;
   vertical-align: middle;
@@ -1449,7 +1450,7 @@ table.record-list.span4 td {
   vertical-align: baseline;
   background: none;
   height: 48px;
-  line-height: 38px;
+  line-height: 48px;
   color: #667cb4;
   font-size: 20px;
 }
