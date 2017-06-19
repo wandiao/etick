@@ -34,46 +34,48 @@
 			<div class="content">
 				<div class="c-main">
 					<div class="search-option clearfix">
-						<div class="so-item">
-							<span class="so-title">店铺名称</span>
-							<select>
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-							</select>
-							<input class="shop-name" type="text" name="">
-						</div>
-						<div class="so-item">
-							<span class="so-title">交易方式</span>
-							<select>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-							</select>
-						</div>
-						<div class="so-item">
-							<span class="so-title">交易状态</span>
-							<select>
-								<option>1</option>
-								<option>1</option>
-								<option>1</option>
-							</select>
-						</div>
-						<div class="so-item">
-							<span class="so-title">手机号</span>
-							<input type="text" class="phone" name="">
-						</div>
-						<div class="clearfix"></div>
-						<div class="so-item mr20">
-							<span class="so-title">交易时间</span>
-							<input type="text"  onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" class="time" name="">
-							<span>~</span>
-							<input type="text" onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})"  class="time" name="">
-						</div>
-						<div class="so-item">
-							<button class="search">搜索</button>
-						</div>
-						<div class="clearfix"></div>
+						<form>
+							<div class="so-item">
+								<span class="so-title">店铺名称</span>
+								<select>
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+								</select>
+								<input class="shop-name" type="text" name="">
+							</div>
+							<div class="so-item">
+								<span class="so-title">交易方式</span>
+								<select>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+								</select>
+							</div>
+							<div class="so-item">
+								<span class="so-title">交易状态</span>
+								<select>
+									<option>1</option>
+									<option>1</option>
+									<option>1</option>
+								</select>
+							</div>
+							<div class="so-item">
+								<span class="so-title">手机号</span>
+								<input type="text" class="phone" name="">
+							</div>
+							<div class="clearfix"></div>
+							<div class="so-item mr20">
+								<span class="so-title">交易时间</span>
+								<input type="text"  onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" class="time" name="">
+								<span>~</span>
+								<input type="text" onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})"  class="time" name="">
+							</div>
+							<div class="so-item">
+								<button class="search">搜索</button>
+							</div>
+							<div class="clearfix"></div>
+						</form>
 					</div>
 					<table class="record-list table-striped">
 						<thead>	

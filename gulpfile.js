@@ -21,9 +21,6 @@ gulp.task('fileinclude', function() {
     .pipe(gulp.dest('webapp'));
 });
 gulp.task('default', function(){
-    gulp.run('less','fileinclude');
 	//监听文件变化
-    gulp.watch(['./res/less/*.less','./page/**/*.html'], function(){
-        gulp.run( 'less','fileinclude');
-    });
+    gulp.watch(['./res/less/*.less','./page/**/*.html'], ['less','fileinclude']);
 });

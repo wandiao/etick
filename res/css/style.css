@@ -1,5 +1,6 @@
 /*reset*/
 body,
+form,
 div,
 span,
 header,
@@ -40,6 +41,7 @@ figcaption {
   -webkit-font-smoothing: antialiased;
 }
 body:focus,
+form:focus,
 div:focus,
 span:focus,
 header:focus,
@@ -1019,6 +1021,24 @@ table.record-list.span4 td {
   background: #233050;
   font-size: 12px;
 }
+.ss.ss8 .sidebar .menu-list a {
+  height: 60px;
+  padding-top: 10px;
+}
+.ss.ss8 .sidebar .menu-list a span {
+  margin-top: 5px;
+}
+.ss.ss8 .sidebar .toggle-btn {
+  height: 40px;
+  line-height: 40px;
+}
+.ss.ss8 .sidebar.cashier-sidebar .menu-list a {
+  height: 80px;
+  padding-top: 20px;
+}
+.ss.ss8 .sidebar.cashier-sidebar .menu-list a span {
+  margin-top: 10px;
+}
 .ss.ss8 .manage-page .main-wrapper {
   position: absolute;
   left: 35px;
@@ -1404,7 +1424,7 @@ table.record-list.span4 td {
   width: 57px;
 }
 .ss.ss8 .search-option .so-item input.time {
-  width: 126px;
+  width: 86px;
 }
 .ss.ss8 .search-option .so-item .search {
   width: 78px;

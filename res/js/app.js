@@ -25,14 +25,25 @@ $(function() {
 	// 当前页面显示高亮
 	var currurl = location.href;
 	var urls = $('.menu-list li a');
+	if(currurl.indexOf('payment-detail')!= -1) {
+		urls.eq(2).addClass("active");
+	}
+	if(currurl.indexOf('shop-detail')!= -1) {
+		urls.eq(1).addClass("active");
+	}
+	if(currurl.indexOf('billing-record')!= -1) {
+		urls.eq(3).addClass("active");
+	}
 	urls.each(function(index,el) {
 		if(currurl.indexOf($(this).attr('href'))!= -1) {
 			$(this).addClass('active');
 		}
 	})
+
+	//初始化select
 	$('select').comboSelect();
 
-	//屏幕
+	//屏幕匹配
 	var screenWidth;
 	screenWidth = window.screen.width;
 	// alert(screenWidth);
@@ -42,6 +53,17 @@ $(function() {
 	if(screenWidth <= 800) {
 		$('html').addClass('ss8');
 	}
-	
-	
+	$(window).resize(function(e){
+		var clientWidth = document.body.clientWidth;
+		if(clientWidth <= 1180) {
+			$('html').addClass('ss');
+		}else{
+			$('html').removeClass('ss');
+		}
+		if(screenWidth <= 800) {
+			$('html').addClass('ss8');
+		}else{
+			$('html').removeClass('ss8');
+		}
+	})
 })
